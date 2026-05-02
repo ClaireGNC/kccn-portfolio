@@ -1,0 +1,38 @@
+<section class="contact-section py-5">
+    <div class="container">
+        <div class="row align-items-center">
+
+            <!-- Left Side: Form -->
+            <div class="col-lg-6 mb-5 mb-lg-0">
+                <p class="text-light-purple fw-bold mb-1">Let's Connect</p>
+                <h2 class="display-5 fw-bold text-white mb-4">Your Vision, Our Creation</h2>
+
+                <div class="contact-card p-4 p-md-5">
+                    <form action="https://formspree.io/f/mykoyrqo" method="POST">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" name="name" class="form-control" id="name" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" name="email" class="form-control" id="email" required>
+                        </div>
+
+                        <div class="mb-4">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea name="message" class="form-control" id="message" rows="4" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary custom-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Right Side: Illustration -->
+            <div class="col-lg-6 text-center">
+                <img src="assets/img/Mailbox-rafiki 1.svg" alt="Mail Illustration" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</section>
