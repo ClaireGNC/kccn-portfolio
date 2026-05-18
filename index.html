@@ -190,6 +190,10 @@
 
                         <div class="card-content">
                             <div class="tags">
+                                <span class="tag">HTML</span>
+                                <span class="tag">CSS</span>
+                                <span class="tag">JS</span>
+                                <span class="tag">AJAX</span>
                                 <span class="tag">PHP</span>
                                 <span class="tag">MySQL</span>
                                 <span class="tag">Bootstrap</span>
@@ -214,14 +218,15 @@
                 <div class="col-12 col-md-6 col-lg-4 d-flex">
                     <div class="project-card w-100 text-decoration-none">
                         <div class="card-preview">
-                            <img src="assets/img/project-1.jpg" alt="Authentication System Project" class="project-image">
+                            <img src="assets/img/auth-system.png" alt="Authentication System Project" class="project-image">
                         </div>
 
                         <div class="card-content">
                             <div class="tags">
+                                <span class="tag">HTML</span>
+                                <span class="tag">Bootstrap</span>
                                 <span class="tag">PHP</span>
                                 <span class="tag">MySQL</span>
-                                <span class="tag">Bootstrap</span>
                             </div>
 
                             <div class="d-flex justify-content-between align-items-start mb-2">
@@ -237,63 +242,6 @@
                         </div>
                     </div>
                 </div>
-
-                <!-- Project Card 2 -->
-                <!--
-                <div class="col-12 col-md-6 col-lg-4 d-flex">
-                    <a href="#" class="project-card w-100 text-decoration-none">
-                        <div class="card-preview">
-                            <img src="assets/img/project-2.jpg" alt="To Do List Project" class="project-image">
-                        </div>
-
-                        <div class="card-content">
-                        <div class="tags">
-                            <span class="tag">JavaScript</span>
-                            <span class="tag">PHP</span>
-                            <span class="tag">CRUD</span>
-                        </div>
-                        <div class="d-flex justify-content-between align-items-start mb-2">
-                            <h3 class="project-name m-0">To Do List</h3>
-                        </div>
-                        <p class="project-desc">A CRUD to do list web app that helps students manage their tasks.</p>
-                        <div class="card-links">
-                            <span class="card-link-item"><i class="bi bi-box-arrow-up-right"></i> Live Demo</span>
-                            <span class="card-link-item"><i class="bi bi-github"></i> Source</span>
-                        </div>
-                    </div>
-                </a>
-                </div>
-                -->
-
-                <!-- Project Card 3 -->
-                <!--
-                <div class="col-12 col-md-6 col-lg-4 d-flex">
-                    <a href="#" class="project-card w-100 text-decoration-none">
-                        <div class="card-preview">
-                            <img src="assets/img/project-3.jpg" alt="Student Information Project" class="project-image">
-                        </div>
-
-                        <div class="card-content">
-                            <div class="tags">
-                                <span class="tag">PHP</span>
-                                <span class="tag">MySQL</span>
-                                <span class="tag">CRUD</span>
-                            </div>
-
-                            <div class="d-flex justify-content-between align-items-start mb-2">
-                                <h3 class="project-name m-0">Student Information</h3>
-                            </div>
-
-                            <p class="project-desc">A CRUD principle student information web app.</p>
-                            <div class="card-links">
-                                <span class="card-link-item"><i class="bi bi-box-arrow-up-right"></i> Live Demo</span>
-                                <span class="card-link-item"><i class="bi bi-github"></i> Source</span>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                -->
-
             </div>
         </div>
     </section>
@@ -309,7 +257,8 @@
             <div class="row align-items-center">
                 <div class="col-lg-5">
                     <div class="contact-card-custom p-4 shadow-sm">
-                        <form action="https://formspree.io/f/mykoyrqo" method="POST" id="contact-form">
+                        <form name="contact" data-netlify="true" netlify id="contact-form">
+                            <input type="hidden" name="form-name" value="contact">
                             <div class="mb-3">
                                 <label for="full-name" class="form-label small text-white-50">Name</label>
                                 <input type="text" name="name" id="full-name" class="form-control custom-input" required>
